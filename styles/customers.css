@@ -1,0 +1,10 @@
+.customers-logout{
+  position:relative;
+}
+#customers{
+  position:absolute;
+  right:0;
+  z-index: 1;
+  margin-right:70px;
+
+}

@@ -1,0 +1,48 @@
+
+body.signin, body.signup,body.create,body.edit{
+background-color: #e6f2ff;
+}
+.container.signin-container,.container.signup-container,.container.create-container,.container.edit-container{
+  margin-top: 8%;
+}
+.card.signin-card,.card.signup-card,.card.create-card,.card.edit-card{
+padding:40px 0px 20px;
+box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+-moz-box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+
+form.signin-form,form.signup-form,form.create-form,form.edit-form{
+  max-width:350px;
+  margin: auto;
+
+}
+
+form.signin-form input,form.signup-form input,form.create-form input,form.edit-form input{
+background-color: #ced4da;
+}
+button.signin-btn, button.signup-btn, button.create-btn, button.edit-btn{
+  color:#ffffff;
+  background-color: #3e6ae1;
+  width:100%;
+
+}
+a.signup{
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
+  margin-top:15px;
+}
+.create-card-customer,.edit-card-customer{
+  positon:relative;
+}
+#customers{
+position:absolute;
+right:0;
+top:0;
+margin-top:5px;
+margin-right:5px;
+}
+#result{
+  display:none;
+}
